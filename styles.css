@@ -1,0 +1,74 @@
+#countLabel {
+  display: block;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  
+  /* margin-top: -100px; */
+}
+#logo{
+   margin-top: -100px; 
+}
+
+#decrease {
+  color: red;
+  font-size: 30px;
+  background-color: aqua;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+#reset {
+  color: white;
+  font-size: 30px;
+  background-color: aqua;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+#increase {
+  color: blue;
+  font-size: 30px;
+  background-color: aqua;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+.btn {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  /* border: 3px solid black; */
+}
+
+.counterapp {
+  border: 3px solid black;
+  padding: 150px;
+  margin: 50px;
+  background-color: rgb(67, 163, 26);
+}
+
+@media screen and (max-width:552px) {
+  #decrease,#reset,#increase{
+    color: white;
+    font-size: x-small;
+    background-color: black;
+    padding: 10px;
+  }
+
+  *{
+    color: aqua;
+    
+  }
+  #logo{
+    text-align: center;
+    margin-left: -60px;
+  }
+  #countLabel{
+    color: blue;
+    text-align: center;
+  }
+  .counterapp{
+    background-color: rgb(42, 49, 37);
+  }
+}
